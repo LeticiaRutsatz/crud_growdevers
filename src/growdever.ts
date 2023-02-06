@@ -52,6 +52,10 @@ export class Growdever {
     return this._habilidades;
   }
 
+  set habilidades(habilidades : Array<string>) {
+    this._habilidades = habilidades;
+  }
+
   constructor(
     id: string,
     nome: string,
